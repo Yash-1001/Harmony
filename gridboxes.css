@@ -1,0 +1,80 @@
+
+.grid {
+    display: grid;
+ 
+    grid-auto-rows: 10fr;
+    grid-template-columns: repeat(6, 0fr);
+    grid-gap: 3rem;
+    margin-top: 74px;
+    grid-row-gap: 40px;
+    margin-left: 40px;
+}
+
+.box {
+
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: grey 6px 5px 20px -11px;
+    background-size:contain ;
+}
+.box:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+cursor: pointer;
+}
+#box1{
+   background-image: url("https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/6474d5db1a5bed5300a95f2b/COLLECTION_54016148126243.png");
+    
+}
+#box2{
+    background-image: url("https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/646c9ae8eb255645a7263626/COLLECTION_27313303029515.jpg");
+}
+#box3{
+    background-image: url("https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/63cfdc0a2f49d10e630f2d0a/COLLECTION_95011541643350.png");
+}
+#box4{
+    background-image: url("https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64744dd2a72d795998f3d3b7/COLLECTION_26780282461555.png");
+}
+#box5{
+    background-image: url("https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/63ec9e63805244482ae3b67f/COLLECTION_12146162571789.png");
+}
+
+#box6{
+    background-image: url("https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/63205b9618f77653fa03e549/COLLECTION_82547435947687.png");
+}
+#box7{
+    background-image: url("https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/6471a757a5af6b1e7b57972d/COLLECTION_18323471578304.png");
+}
+#box8{
+    background-image: url("https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/64673a42150fe10c02259193/COLLECTION_191789039795752.png");
+}
+#box9{
+    background-image: url("https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/63ef3152b2fe285ac077288e/COLLECTION_20623277639594.png");
+}
+#box10{
+    background-image: url("https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/646dfdb6725fd336aa89bf6d/COLLECTION_694750544771683.png");
+}
+#box11{
+    background-image: url("https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/6471a6feb0864d436bbba55c/COLLECTION_60725934025779.png");
+}
+#box12{
+    background-image: url("https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/646c86decb7cdf47bece0b1f/COLLECTION_27978789681125.png");
+}
+
+#box13{background-image: url("https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/647087b2441bf9129220ed4a/COLLECTION_26090514371090.png");}
+#box14{background-image: url("https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/6401d8b522b13e29ac97ef8d/COLLECTION_68466274110299.png");}
+#box15{background-image: url("https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/6334188c7bdfcb3d97d90b7d/COLLECTION_22626858323428.png");}
+#box16{background-image: url("https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/627e2737cf39683098abc7d9/COLLECTION_2446048579907401.png");}
+#box17{background-image: url("https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/6463188faf546423f442a34e/COLLECTION_13549307138760.png");}
+#box18{background-image: url("https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/627e235c2cb70b599bf4817a/COLLECTION_3292271099149785.png");}
+#box19{background-image: url("https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/Nostalgia-300x30011.png");}
+#box20{background-image: url("https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/Rishi-Kapoor-300x300.png");}
+#box21{background-image: url("https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/644969415b0a0537f134c3b0/COLLECTION_25759352074584.png");}
+#box22{background-image: url("https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/60294123d3dd182d44dca1c2/COLLECTION_105349708508296.png");}
+#box23{background-image: url("https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/King-of-Blues-BBKing-300x300.png");}
+#box24{background-image: url("https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/campus-classics-300x300.png");}
+
+
+

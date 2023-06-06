@@ -1,0 +1,10 @@
+.gridhead{
+    top: 41px;
+    font-size: 26px;
+    font-family: 'Mukta', sans-serif;
+    text-decoration: underline;
+    display: block;
+    position: relative;
+    padding-left: 67px;
+    color: white;
+}

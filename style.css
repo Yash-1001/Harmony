@@ -1,0 +1,164 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#navbar {
+    display: flex;
+    margin-bottom: 25px;
+    background-image: linear-gradient(to top, black, #867878);
+    width: 100%;
+}
+
+#logo img {
+    height: 88px;
+    width: 88px;
+    margin: 16px 25px;
+    border-radius: 30px;
+}
+
+#logo img:hover {
+    transform: rotate(360deg) scale(1.2);
+    border-radius: 50px;
+    transition: 1s;
+
+}
+
+#navbar ul {
+    display: flex;
+    font-size: 1.2rem;
+
+}
+#navbar ul li {
+    list-style: none;
+    margin-top: 23px;
+    font-family: 'Mukta', sans-serif;
+
+
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 22px 36px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+#navbar ul li a:hover {
+    background-color: rgb(139, 154, 237);
+    transition: 0.65s;
+    transform: scale(1.1);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+
+}
+
+body {
+    background: #000000;
+
+}
+
+#navbar input {
+    border-radius: 10px;
+    width: 321px;
+    padding-top: 4px;
+    height: 25px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    font-family: 'Mukta', sans-serif;
+}
+
+#search {
+    position: relative;
+    left: 35px;
+    height: 35px;
+    color: white;
+    top: 45px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+}
+.login{
+    width: 134px;
+    color: rgb(10, 10, 10);
+    font-family: 'Mukta', sans-serif;
+  
+    background-color: rgb(30, 230, 30);
+    text-align: center;
+    position: relative;
+    left: 67px;
+    height: 35px;
+    top: 45px;
+    border-radius: 20px;
+}
+.login:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: rgb(24, 157, 24);
+    color: white;
+}
+
+.signup{
+    width: 134px;
+    color: rgb(10, 10, 10);
+    font-family: 'Mukta', sans-serif;
+    
+    background-color: rgb(231, 18, 57);
+    text-align: center;
+    position: relative;
+    left: 85px;
+    height: 35px;
+    top: 45px;
+    border-radius: 20px;
+}
+.signup:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: rgb(207, 20, 54) ;
+    color: white;
+}
+.container1 {
+
+    box-shadow: black 7px 9px 29px -13px;
+    background-image: url("BANNER_72300160676787.jpg");
+    height: 306px;
+    margin-left: 20px;
+    border-radius: 26px;
+    width: 729px;
+}
+
+.container1:hover {
+    transform: scale(1.03);
+    transition: 0.35s ease-out;
+}
+
+.footer {
+    height: 356px;
+    background-color: rgb(139, 154, 237);
+    margin-top: 56px;
+    width: 100%;
+}
+
+.container2 {
+    background-image: url(BANNER_9137678286067.jpg);
+    height: 306px;
+    box-shadow: black 7px 9px 29px -13px;
+    border-radius: 26px;
+    width: 729px;
+    float: right;
+    position: relative;
+    bottom: 306px;
+    margin-right: 20px;
+}
+
+.container2:hover {
+    transform: scale(1.03);
+    transition: 0.35s ease-out;
+}
