@@ -1,0 +1,163 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+
+}
+
+.art {
+    font-family: 'Mukta', sans-serif;
+    color: white;
+    margin-left: 68px;
+    font-size: 60px;
+}
+
+.grid {
+    display: grid;
+    grid-auto-rows: 10fr;
+    grid-template-columns: repeat(6, 0fr);
+    grid-gap: 3rem;
+    margin-top: 85px;
+    grid-row-gap: 130px;
+    margin-left: 20px;
+
+}
+
+.box {
+
+    border: 2px solid rgb(255, 255, 255);
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    box-shadow: #F0E8E8 0px 1px 47px -11px;
+        background-size: contain;
+    cursor: pointer;
+}
+
+
+
+.box:hover {
+    transform: scale(1.1);
+    transition: 0.35s;
+
+}
+
+#box1 {
+    background-image: url("https://a10.gaanacdn.com/gn_img/artists/JD2KJAbOLw/D2KJEvDAbO/size_m_1631802265.jpg");
+}
+
+#box2{
+    background-image: url("https://a10.gaanacdn.com/gn_img/artists/Oxd3xP3gVY/xd3x7pYKgV/size_m_1558425309.jpg");
+}
+#box3{
+    background-image: url("https://a10.gaanacdn.com/gn_img/artists/Dk9KNk23Bx/k9KNqJJbBx/size_m_1638898900.jpg");
+}
+#box4{
+    background-image: url("https://a10.gaanacdn.com/gn_img/artists/9En3pqeWXD/En3pQZ9WXD/size_m_1558423917.jpg");
+}
+#box5{
+    background-image: url("https://a10.gaanacdn.com/gn_img/artists/DwPKOkBKqV/wPKO8PDY3q/size_m_1648045247.jpg");
+}
+#box6{
+    background-image: url("https://a10.gaanacdn.com/gn_img/artists/Dk9KN2KBx1/k9KNg85e3B/size_m_1558595498.jpg");
+}
+#box7{
+    background-image: url("https://a10.gaanacdn.com/gn_img/artists/Rz4W87v3xD/z4W8edepbx/size_m_1630402733.jpg");
+}
+#box8{
+    background-image: url("https://a10.gaanacdn.com/gn_img/artists/D0PKLrWGl9/0PKLqXQw3G/size_m_1648556232.jpg");
+}
+#box9{
+    background-image: url("https://a10.gaanacdn.com/gn_img/artists/a7LWBzWzXA/7LWBLgNKzX/size_m_1631801811.jpg");
+}
+#box10{
+    background-image: url("https://a10.gaanacdn.com/gn_img/artists/9En3pqeWXD/En3pq4ylWX/size_m_1558595084.jpg");
+}
+#box11{
+    background-image: url("https://a10.gaanacdn.com/gn_img/artists/qa4WEqWP1p/a4WEmZeWP1/size_m_1631802881.jpg");
+}
+#box12{
+    background-image: url("https://a10.gaanacdn.com/gn_img/artists/21GWwrR3pk/1GWwr8av3p/size_m_1516797570.jpg");
+}
+#box13{
+    background-image: url("https://a10.gaanacdn.com/gn_img/artists/Rz4W8vKxD5/z4W8LVEWxD/size_m_1631802754.jpg");
+}
+#box14{
+    background-image: url("https://a10.gaanacdn.com/gn_img/artists/oAJbDElKnL/AJbD74BGWn/size_m_1605195627.jpg");
+}
+#box15{
+    background-image: url("https://a10.gaanacdn.com/gn_img/artists/21GWwrR3pk/1GWwmn2Kpk/size_m_1515132892.jpg");
+}
+#box16{
+    background-image: url("https://a10.gaanacdn.com/gn_img/artists/Oxd3xP3gVY/xd3xDNMa3g/size_m.jpg");
+}
+#box17{
+    background-image: url("https://a10.gaanacdn.com/gn_img/artists/21GWwR3pkg/1GWwrdBD3p/size_m_1560147487.jpg");
+}
+#box18{
+    background-image: url("https://a10.gaanacdn.com/gn_img/artists/w4MKPDOKoj/4MKPgoQgbo/size_m_1516802409.jpg");
+}
+
+
+
+
+/* <<___--------------------------------FOOTER--------------------->> */
+.footer {
+    height: 400px;
+    background-color: rgb(149 161 169 / 57%);
+    margin-top: 130px;
+    width: 100%;
+}
+.foothead{
+    text-align: center;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+font-size:20px;
+font-weight: lighter;
+padding-top: 20px;
+grid-area: foothead;
+}
+.gridfoot{
+    display: grid;
+    grid-auto-rows: 10fr;
+    grid-template-columns: repeat(4, 5fr);
+    grid-gap: 1rem;
+    margin-top: 85px;
+    
+    margin-left: 20px;
+}
+.boxfoot{
+    border: 1px solid rgb(0, 0, 0);
+     height: 250px;
+    width: 245px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
