@@ -1,0 +1,172 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/musical-colorful-notes-dark-background_1017-32302.jpg?w=1380&t=st=1686372882~exp=1686373482~hmac=a29bc4b46bdb5c278a365563e49bcc39507de1ce1c385b2c601d4ec7aaddf65c);
+    background-size: cover;
+}
+
+.container {
+    height: 688px;
+    width: 500px;
+    margin-top: 29px;
+    border: 2px solid white;
+    margin-left: 49%;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: #4faec0 0px 0px 38px 3px;
+}
+
+.head {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.username {
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+
+    position: relative;
+    top: 22px;
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+.password {
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+
+    position: relative;
+    top: 45px;
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+#userinput {
+    position: relative;
+    top: 19px;
+    margin-left: 35px;
+}
+
+#userinput img {
+    position: relative;
+    top: 15px;
+
+}
+
+#passinput {
+
+    position: relative;
+    top: 61px;
+    margin-left: 35px;
+
+}
+
+.username img {
+
+    position: relative;
+    top: 45px;
+}
+
+.password img {
+
+    position: relative;
+    top: 45px;
+}
+
+#passinput input {
+    width: 440px;
+    height: 45px;
+    background-color: transparent;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    top: -15px;
+    border-left: none;
+    position: relative;
+    border-right: none;
+    border-bottom: solid #ffffff 1px;
+color: white;
+}
+
+#userinput input {
+    width: 440px;
+    height: 50px;
+    background-color: transparent;
+color: white;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #ffffff 1px;
+}
+
+.loginbtn {
+    height: 50px;
+    width: 350px;
+    border: 2px rgb(255, 255, 255) solid;
+    position: relative;
+    top: 85px;
+    left: 80px;
+    border-radius: 18px;
+     background-color: #9f40a5;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+.loginbtn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.35s;
+}
+
+#logintext {
+    color: white;
+    position: relative;
+    top: 15px;
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+.fp {
+    float: right;
+    font-family: 'Exo 2', sans-serif;
+    margin-top: 51px;
+    margin-right: 7px;
+    color: #6363dfa1;
+    cursor: pointer;
+}
+#or{
+    font-family: 'Exo 2', sans-serif;
+    position: relative;
+    top: 134px;
+    left: 185px;
+    color: white;
+}
+#facebook{
+    position: relative;
+    left: 166px;
+    top: 157px;
+    cursor: pointer;
+    width: 50px;
+}
+#twitter{
+    position: relative;
+    left: 281px;
+    top: 50px;
+    cursor: pointer;
+    width: 50px;
+}
+#google{
+    position: relative;
+    top: 105px;
+    left: 224px;   
+    cursor: pointer; 
+    width: 50px;
+}
+.fbgotw:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    rotate: 360deg;
+}
